@@ -1,0 +1,25 @@
+.TodoTemplate { 
+	width: 512px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	// margin: 0 auto;
+	// 4,5줄이랑 이거랑 같음
+	overflow: hidden; // 넘어가면 그냥 그대로 가림
+	//overflow: visible; // 전부 표시
+}
+
+.app-title {
+	background: #22b8cf;
+	color: white;
+	height: 4rem;
+	font-size: 1.5rem;
+	display: flex;
+	// flex 아이템들은 가로 방향 배치, 자신이 가진 내용물의 width만큼만 차지
+	align-items: center; // align 수직축
+	justify-content: center; // justify 수평축 
+}
+
+.content {
+	background: white;
+}
